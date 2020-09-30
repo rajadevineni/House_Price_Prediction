@@ -6,19 +6,19 @@
 
 ## Variable Types
 
-###Categorical Features
+### Categorical Features
  
 	 view
 	 condition
 	 waterfront
 	 city
 	 statezip
-###Discreate Features
+### Discreate Features
 
 	 bedrooms
 	 bathrooms
 	 floors
-###Continous Features 
+### Continous Features 
 
 	 sqft_living
 	 sqft_lot
@@ -27,18 +27,19 @@
 	 yr_built
 	 yr_renovated 
 
-##Distribution of each continuous feature
-###Key take aways from disctribution graphs:
+## Distribution of each continuous feature
+
+### Key take aways from disctribution graphs:
 * More than half of the data doesn't have the year of rennovation values, that can be either due to no rennovations recorded for that house or no rennovations done
 * There are outliers in variables like "sqft_lot" with abnormal data values
 
 ![Distribution Graphs](distribution.png)
 
-###Distribution of Price
+### Distribution of Price
 
 ![Distribution of Price](price_distribution.png)
 
-##Removing Outliers
+## Removing Outliers
  
 There are some outlier that could potentially affect the regression, removing the outliers could help make better predictions
 
@@ -48,7 +49,7 @@ There are some outlier that could potentially affect the regression, removing th
 * Capping sqft_living to 5000
 * Capping sqft_above to 5000
 
-##Dependency of the price on each continuous feature
+## Dependency of the price on each continuous feature
 
 Visualizing dependancy of price on Continous Features
 Looking at the scatter plots, we can see that there are few outliers in the data with abnormal data values which was also seen in the univariate distribution graphs
@@ -57,7 +58,7 @@ Looking at the yr_rennovated data from both histogram and scatter plot, >50% of 
 
 ![Scatter Plots](scatter_plots.png)
 
-##Number of unique values for each variable
+## Number of unique values for each variable
     Id : 3000
     price : 1326
     bedrooms : 10
