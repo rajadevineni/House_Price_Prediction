@@ -34,10 +34,12 @@
 
 ![Distribution Graphs](distribution.png)
 
-### Distribution of Price
+###Distribution of Price
 
 ![Distribution of Price](price_distribution.png)
 
+##Removing Outliers
+ 
 There are some outlier that could potentially affect the regression, removing the outliers could help make better predictions
 
 * Capping the price of the house variable to 1 million(1000000)
@@ -46,7 +48,8 @@ There are some outlier that could potentially affect the regression, removing th
 * Capping sqft_living to 5000
 * Capping sqft_above to 5000
 
-##Dependency of the price on each continuous feature.
+##Dependency of the price on each continuous feature
+
 Visualizing dependancy of price on Continous Features
 Looking at the scatter plots, we can see that there are few outliers in the data with abnormal data values which was also seen in the univariate distribution graphs
 
