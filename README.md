@@ -4,19 +4,22 @@
 
 ![Correlation Matrix](correlation_matrix.png)
 
-## Variable Categories
+## Variable Types
 
-###Categorical Features: 
+###Categorical Features
+ 
 	 view
 	 condition
 	 waterfront
 	 city
 	 statezip
-###Discreate Features: 
+###Discreate Features
+
 	 bedrooms
 	 bathrooms
 	 floors
-###Continous Features: 
+###Continous Features 
+
 	 sqft_living
 	 sqft_lot
 	 sqft_above
