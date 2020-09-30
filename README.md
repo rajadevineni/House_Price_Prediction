@@ -1,5 +1,8 @@
 # House Price Prediction with KNN Regressor
 
+>This is a competition for UT Dallas MIS/BUAN students. The purpose of this competition is to evaluate pre-processing steps and use pipelines. Students will learn how to use various preprocessing steps and KNN regression in a single pipeline. The competition is based on a subset of data from Kaggle Competition: https://www.kaggle.com/shree1992/housedata
+
+>The detailed description of the data can be found at https://www.kaggle.com/shree1992/housedata
 ## Correlation matrix
 
 ![Correlation Matrix](correlation_matrix.png)
